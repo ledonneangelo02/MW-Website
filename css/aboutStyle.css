@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.text{
+    font-family: 'Josefin Sans';
+}
+
+.landing{
+    padding: 50px;
+    background-color: black;
+    text-align: center;
+    h1{
+        color: #fff;
+        font-size: 75pt;
+    }
+}
+
+.content{
+    display: flex;
+    img{
+        padding-top: 10px;
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.aboutme{
+    h3{
+        text-align: center;
+        font-size: 30pt;
+    }
+    p{
+        font-size: 15pt;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}

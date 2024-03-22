@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: saddlebrown;
+    text-decoration: none;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    background-size: 0% 0.1em;
+    background-position-y: 100%;
+    background-position-x: 0%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+    }
+    a:hover,
+    a:focus,
+    a:active {
+    background-size: 100% 0.1em;
+}
+
+.Header {
+    background-color: black; /* Set your desired background color */
+    padding: 25px;
+    text-align: center;
+}
+
+.text{
+    font-family: 'Josefin Sans';
+}
+
+.NameLogo {
+    font-size: 24px;
+    color: #fff; /* Set your desired text color */
+    text-decoration: none;
+}
+
+.OutsideHeaderList{
+    display: flex;
+    margin: 0;
+}
+
+.HeaderList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeaderList li{
+    display: inline-flex;
+    margin-right: 80px;
+}
+
+.HeaderList li a {
+    color: #fff; 
+    text-decoration: none;
+}
+
+.HeaderList li a:hover {
+    cursor: pointer;
+}
+
+.NameLogo{
+    font-weight: 400;
+    margin-left: 80px;
+
+}

@@ -1,0 +1,12 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#Footer{
+    background-color: black;
+    color: white;
+    bottom: 0;
+    padding: 10px;
+}
+
