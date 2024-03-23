@@ -16,3 +16,24 @@
     font-size: 90px;
     font-weight: 100;
 }
+
+.articles{
+    hr{
+        height: 5px;
+        background-color:#979797;
+        width: 500px;
+    }
+}
+
+.article-box{
+    display: flex;
+    justify-content: center;
+    h3{
+        padding-left: 20px;
+        text-align: center;
+    }
+    img{
+        width: 400px;
+        height:400px;
+    }
+}
