@@ -29,9 +29,19 @@ a {
     font-family: 'Josefin Sans';
 }
 
+.Logo{
+    text-align: left;
+}
+
 .NameLogo {
     font-size: 24px;
     color: #fff; /* Set your desired text color */
+    text-decoration: none;
+}
+.NameLogo_Line2 {
+    margin-top: -1px;
+    padding-left: 80px;
+    color: #c9c9c9; /* Set your desired text color */
     text-decoration: none;
 }
 
@@ -41,9 +51,7 @@ a {
 }
 
 .HeaderList{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    list-style-type: none;    
     color: white;
 }
 
