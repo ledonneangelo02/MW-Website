@@ -3,8 +3,7 @@ body{
     padding: 0;
 }
 
-a {
-    color: saddlebrown;
+.Header a {
     text-decoration: none;
     background-image: linear-gradient(#ffffff, #ffffff);
     background-size: 0% 0.1em;
